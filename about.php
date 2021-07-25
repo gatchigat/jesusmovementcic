@@ -33,7 +33,7 @@ $desc2 = 'Harum, dignissimos minus alias, nihil nobis dolore, eum nesciunt vero 
 
 // SLIDE 3
 $heading3 = 'Weekly Scheduled Bible Study';
-$date3 = 'Every &nbsp Friday &nbsp &nbsp &nbsp &nbsp 8:00PM';
+$date3 = 'Every &nbsp Friday &nbsp &nbsp &nbsp 8:00PM';
 $venue3 = 'Sa Lumang Bahay';
 $desc3 = 'Corrupti libero sint ullam iure officiis iste qui earum maiores placeat consequatur assumenda nobis consectetur, est inventore nulla voluptatibus facere, voluptatum? Iure itaque dolorem iste libero beatae pariatur commodi blanditiis illo velit! Veniam maiores mollitia optio asperiores amet, porro totam, dolorum alias ipsam consequuntur ex.Iusto consequuntur quisquam consequatur voluptatem delectus.'
  ?>

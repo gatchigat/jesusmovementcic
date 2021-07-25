@@ -109,7 +109,7 @@ include "about.php"
                   </h4>
                   <h4 class="testi2 bold"><?php echo $venue2; ?>
                   </h4>  
-                  <h5 class=" esti2 event-text"><?php echo $desc2; ?>
+                  <h5 class="testi2 event-text"><?php echo $desc2; ?>
                   </h5>
                 </div>
                    <div class="testi2 carousel-item container-fluid">

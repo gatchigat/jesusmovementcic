@@ -437,10 +437,6 @@ color: black;
     /*position: static;*/
     /*height: 120vh;*/
   }
-  #events .big{
-    font-size: 3rem;
-
-  }
   #myBtn{
       font-size: 10px;
   }
@@ -480,9 +476,21 @@ color: black;
     /*position: static;*/
     /*height: 120vh;*/
   }
-  #events .big{
-    font-size: 3rem;
 
+  
+  #events h3{
+    font-size: 1.5rem
+  }
+  #events .event-text {
+    /*font-size: 1rem;*/
+
+  }
+  #events h2{
+    font-size: 2rem;
+
+  }
+  #myBtn{
+      font-size: 10px;
   }
   #myBtn{
       font-size: 10px;
