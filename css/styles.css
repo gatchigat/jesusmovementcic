@@ -51,9 +51,11 @@ p {
 }
 .navbar-dark .navbar-nav .nav-link{
   color: white;
+  transition: color 500ms, text-shadow 500ms;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
   color: #60C790;
+  text-shadow: 1px 1px 2px #1B390E;
 }
 .container-fluid {
   padding: 7% 15%;
@@ -396,9 +398,9 @@ color: black;
   background-color: #00af91; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  /*padding: 15px;  Some padding */
-  border-radius: 50%; /* Rounded corners */
-  font-size: 25px; /* Increase font size */
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
   opacity: .3;
 }
 
@@ -439,9 +441,11 @@ color: black;
     font-size: 3rem;
 
   }
-
-
+  #myBtn{
+      font-size: 10px;
+  }
 }
+
 @media (max-width: 400px) {
   #title .container-fluid {
     padding: 3% 15% 0;
@@ -478,6 +482,10 @@ color: black;
   #events .big{
     font-size: 3rem;
 
+  }
+  #myBtn{
+      font-size: 10px;
+    opacity: .3;
   }
 
 

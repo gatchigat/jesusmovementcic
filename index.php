@@ -32,7 +32,7 @@
           <link rel="icon" href="favicon.ico" />
         </head>
         <body>
-          <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up fa-2x"></i></button>
 
           <!-- PHP INCLUDE about-->
           <?php 
