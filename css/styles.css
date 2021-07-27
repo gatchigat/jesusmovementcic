@@ -21,7 +21,7 @@ p {
 
 .big-heading {
   font-family: "Montserrat-Black", sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 4rem;
   line-height: 1.5;
   text-shadow: 3px 3px 2px #3d3d3d;
@@ -47,15 +47,16 @@ p {
 .navbar-brand {
   font-family: "Open Sans", sans-serif;
   font-size: 1.9rem;
-  font-weight: bold;
+  font-weight: bolder;
+  text-shadow: 3px 3px 2px #3d3d3d;
 }
 .navbar-dark .navbar-nav .nav-link{
   color: white;
-  transition: color 500ms, text-shadow 500ms;
+  transition: color 500ms, text-shadow 900ms;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-  color: #60C790;
-  text-shadow: 1px 1px 2px #1B390E;
+  color: #253E31;
+  text-shadow: #00FFC6 1px 0 10px;
 }
 .container-fluid {
   padding: 7% 15%;
