@@ -84,7 +84,7 @@
               </div>
             </section>
           
-          <!--TODO !Bootstrap Grid Group Features -->
+          <!--!Bootstrap Grid Group Features -->
           <section class="white-section" id="features">
             <div class="container-fluid">
               <div class="row">
@@ -108,7 +108,7 @@
             </div>
           </section>
           <!-- !Testimonials -->
-           <!-- TODO *BOOTSTRAP Carousel testimonials x -->
+           <!--*BOOTSTRAP Carousel testimonials x -->
           <section class="colored-section" id="testimonials">
             <!-- <div class="testimonialHeadingDiv"><h2 class="testimonialHeading bold">Testimonials</h2></div> -->
              <div id="testimonial-carousel" class="carousel slide" data-ride="false">
@@ -150,7 +150,7 @@
         
           </section>
      
-          <!--TODO !About with embed video-->
+          <!--!About with embed video-->
           <section class="white-section" id="about">
             <h2 class="section-heading">About</h2>
             <!-- * About paragraph -->
@@ -158,25 +158,33 @@
             <?php
               echo $aboutTxt;
             ?></p>
+
+
+            
              <!-- * 30 second facebook ad, from Kent -->
 
-    <div class="maxvid">
-      <div class="facebook-responsive">
+            <div class="maxvid">
+              <div class="facebook-responsive">
 
-        <iframe class="fbvid"
-          src="https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2Fkentharvey.paez.9%2Fvideos%2F1389806964695980%2F&show_text=false&width=560"
-          width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-          allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          allowFullScreen="true"></iframe>
+                <iframe class="fbvid"
+                  src="https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2Fkentharvey.paez.9%2Fvideos%2F1389806964695980%2F&show_text=false&width=560"
+                  width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                  allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                  allowFullScreen="true"></iframe>
 
-      </div>
+              </div>
 
-    </div>
+            </div>
 
           </section>
-          <!--TODO !Call to Action Quote -->
+          <!--!Call to Action Quote -->
           <section class="colored-section container-fluid" id="cta">
-            <h3 class="cta-heading">Ludum mutavit. Verbum est ex. Et ... sunt occidat. Videtur quod est super omne oppidum. Quis transfretavit tu iratus es contudit cranium cum dolor apparatus.</h3>
+            <h3 class="cta-heading">
+              <!-- ADDITIONAL TASK FILE MANIPULATION-->
+              <?php $cta_txt = fopen('cta.txt', 'r'); //OPEN txt file read mode
+              echo fgets($cta_txt);                   //ECHO contents
+              fclose($cta_txt);                       //CLOSE CONN
+              ?></h3>
             <h2 class="sml-heading"> - Ego Intervenerit</h2>
           </section>
           <!-- !Footer -->
@@ -195,9 +203,11 @@
               // JS for Back to top button
                 mybutton = document.getElementById("myBtn");
 
-                // When the user scrolls down 400px from the top of the document, show the button
+                // When the user scrolls down 700px from the top of the document, show the button
                 window.onscroll = function() {scrollFunction()};
 
+
+                //PAGE HEIGHT WHEN THE BUTTON APPEARS IS SET AT 700px
                 function scrollFunction() {
                 if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
                 mybutton.style.display = "block";
@@ -208,8 +218,8 @@
 
                 // When the user clicks on the button, scroll to the top of the document
                 function topFunction() {
-                document.body.scrollTop = 0; // For Safari
-                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                document.body.scrollTop = 0; 
+                document.documentElement.scrollTop = 0;
                 }
             </script>
         </body>

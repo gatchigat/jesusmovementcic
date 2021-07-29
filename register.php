@@ -145,6 +145,7 @@
 				 ?>
 				 </div>
 
+         <!-- INPUT CONTAINER-->
           <section class="white-section" id="register">
             <div class="container-fluid">
 
@@ -183,7 +184,8 @@
                     <textarea name="addressReg" class="form-control form-control-lg" id="addressReg" cols="" rows="6" required="required"></textarea>
                   </div>
                 </div>
-            	
+
+            	<!-- BUTTON BOOTSTRAP -->
             	<div class="buttonDiv"><button type="submit" name='submit' class="btn btn-outline-dark btn-lg">Submit</button></div>
 				      </form>
           </div>
@@ -202,8 +204,8 @@
           <p class=" copy-foot1Others footer-others">©Copyright 2021 Jesus Movement</p>
           <p class="copy-foot2 footer-others2">Website by Gatchi @ College of Immaculate Conception</p>
         </footer>
-        		<script>
-			function TestsFunction() {
+		<script>
+			   function TestsFunction() {
 				    var T = document.getElementById("othersMain");
 					    if (T.style.display === "block"){
 					    	T.style.display = "none";  // <-- Set it to block

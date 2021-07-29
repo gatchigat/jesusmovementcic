@@ -64,7 +64,8 @@
   <!-- INCLUDE about.php -->
   
 <?php
-include "about.php"
+include "about.php";
+header( "refresh:3; url=memberlist.php" ); 
 ?>
 
 	<!-- !Title -->
@@ -97,14 +98,14 @@ include "about.php"
               </nav>
           </div>
       </section>
-       
+
+       <!-- MAIN BOOTSTRAP TABLE-->
      <section class="white-section" id="events">
       <h2 class="bolder colorG">Members</h2>
               <!-- <div class="container-fluid"> -->
-<div class="table-responsive-sm">
-                <div class="row">
-
-                  <div class="col-lg-10 mx-auto">
+      <div class="table-responsive-sm">
+          <div class="row">
+          <div class="col-lg-10 mx-auto">
               
               <!-- <div class="testimonialHeadingDiv"><h2 class="testimonialHeading bold">Testimonials</h2></div> -->
        
@@ -138,7 +139,7 @@ include "about.php"
           $pass = '4v08SFVVyW';
 
 
-
+          //CONNECT TO DB
           $connection = mysqli_connect($host, $user, $pass, $db);
           if($connection-> connect_error){
             die('Connection Failed:'.$connection-> connect_error);
@@ -146,6 +147,7 @@ include "about.php"
           $sql = "SELECT id, FirstName, LastName, email, ContactNo, address from registration";
           $result = $connection-> query($sql);
           
+          //LOOP OUTPUT PER ROW
           if ($result -> num_rows > 0){
             while ($row = $result -> fetch_assoc()){
               echo "<tr><td>".$row["id"]."</td><td>".$row["FirstName"]."</td><td>".$row["LastName"]."</td><td>".$row["email"]."</td><td>".$row["ContactNo"]."</td><td>".$row["address"]."</td></tr>";
@@ -153,6 +155,7 @@ include "about.php"
             echo "</table>";
           }
           $connection-> close();
+
          ?>
          </div>
          </div>
