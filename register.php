@@ -46,9 +46,7 @@
     				justify-content: center;
     				align-items: center;
     			}*/
-    			p{
-    				/*max-width: 100vw;*/
-    			}
+    		
       </style>
 </head>
 <body>
@@ -76,11 +74,12 @@
           </div>
       </section>
       <main id="">
-          <!-- !Features -->
+          <!-- !PHP  -->
       <div class='phpDiv'>
         <?php 
 			
-        // SUBMIT == TRUE
+        // ?SUBMIT == TRUE
+        // ?PULLED VALUES TO VAR
 				if(isset($_POST['submit'])){
 
   				$fName = $_POST['fName'];
@@ -89,23 +88,23 @@
   				$contactNo = $_POST['contactNo'];
   				$addressReg = $_POST['addressReg'];
 
-          //APPEND TXT FILE AND SAVE
+          // ?APPEND TXT FILE AND SAVE (LOCALHOST APPLICABLE ONLY)
           $toSave = fopen("JesusMovementMembReg.txt", "a") or die("Unable to open file!");
           $regCon = 'First Name: '.$fName."\n".'Last Name: '.$lName."\n".'Email Address: '.$emailAdd."\n".'Contact No: '.$contactNo."\n".'Address:  '.$addressReg."\n\n";
           fwrite($toSave, $regCon);
           fclose($toSave);
 
 
-          //DB Connect 
+          //!DB Connect 
 
-          //DEV LOCALHOST PHPMYADMIN
+          //? DEV LOCALHOST PHPMYADMIN
           // $host = '127.0.0.1';
           // $db = 'jmovement';
           // $user = 'root';
           // $pass = '';
 
 
-          //LIVE HEROKU VIA REMOTESQL
+          //? LIVE HEROKU VIA REMOTESQL
           $host = 'remotemysql.com';
           $db = 'gB9Y3DkByD';
           $user = 'gB9Y3DkByD';
@@ -115,7 +114,7 @@
 
           $connection = mysqli_connect($host, $user, $pass, $db);
 
-          //TEST CONNECTION
+          // ?TEST CONNECTION
           // if($connection){
           //   echo 'Connected';
           // } else {
@@ -123,22 +122,22 @@
           // }
 
 
-          //INSERT VALUES
+          // ?INSERT VALUES
           $query = "INSERT INTO registration(FirstName, LastName, email, contactNo, address)";
           $query .=  "VALUES ('$fName', '$lName', '$emailAdd', '$contactNo', '$addressReg')";
 
           $result = mysqli_query($connection, $query);
 
-          //ERROR
+          // ?ERROR
           if (!$result){
             die('Error'.mysqli_error());
           }
 
 
-					echo 'Registration Successful!';             //CONFIRM REG
-          header( "refresh:3; url=register.php" );    //REFRESH PAGE AFTER 3 SECONDS
+					echo 'Registration Successful!';             //- CONFIRM REG
+          header( "refresh:3; url=register.php" );    //- REFRESH PAGE EVERY 3 SECONDS
 				
-        //SUBMIT == FALSE
+        // ?SUBMIT == FALSE
 				} else{
 					#pass
 				}

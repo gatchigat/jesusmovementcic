@@ -75,3 +75,21 @@ Email Address: kioji@oojmo.com
 Contact No: 08124124
 Address:  Tanza, Cavite
 
+First Name: Kapitan
+Last Name: Kulas
+Email Address: kk123@aa.com
+Contact No: 1294012412
+Address:  General Trias, Cavite
+
+First Name: Leon
+Last Name: Guerrero
+Email Address: kapampangan1@y.com
+Contact No: 98091284124
+Address:  Porac, Pampanga
+
+First Name: Curacha
+Last Name: Corazon
+Email Address: osang@g.com
+Contact No: 93939311
+Address:  Tondo, Manila
+

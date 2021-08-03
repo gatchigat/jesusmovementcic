@@ -64,7 +64,6 @@
   <!-- INCLUDE about.php -->
   
 <?php
-include "about.php";
 header( "refresh:3; url=memberlist.php" ); 
 ?>
 

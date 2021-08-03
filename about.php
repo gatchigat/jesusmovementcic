@@ -1,8 +1,8 @@
 <?php 
 
-//HOMEPAGE
+//!HOMEPAGE
 
-// GROUP FEATURES SECTION
+// +GROUP FEATURES SECTION
 $groupTxt1 = 'Cultivation';
 $groupTxt2 = 'Devotion';
 $groupTxt3 = 'Compassion';
@@ -17,21 +17,21 @@ $aboutTxt = ' Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem volu
 
 
 
-// EVENTS PAGE
+// !EVENTS PAGE
 
-// SLIDE 1
+// +SLIDE 1
 $heading1 = 'Bible Conference 2021';
 $date1 = 'September 14, 2021 3:00PM';
 $venue1 = 'SM City Cabanatuan';
 $desc1 = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex nam aut ducimus natus laudantium exercitationem!Necessitatibus architecto cum blanditiis iste nobis repellat, culpa veritatis doloremque eius placeat sed facere recusandae, hic. Vitae corrupti sit natus, eius aspernatur commodi. Accusamus distinctio, dolorum ratione explicabo, sunt modi animi debitis, vero praesentium officiis error.';
 
-// SLIDE 2
+// +SLIDE 2
 $heading2 = '30th JeMove Anniversary';
 $date2 = 'December 20, 2021 9:00AM';
 $venue2 = 'Pilapil ni Nardong Putik';
 $desc2 = 'Harum, dignissimos minus alias, nihil nobis dolore, eum nesciunt vero eligendi ipsa maxime fuga a vitae, sequi eius animi in officiis. Consequatur beatae suscipit voluptates aut, a autem ducimus blanditiis nisi nobis, provident et? Illo, mollitia ex vero, quisquam debitis delectus. Aut consectetur veritatis in omnis commodi corporis consequuntur porro facere voluptatem quidem impedit deserunt labore, minima culpa adipisci. 	';
 
-// SLIDE 3
+// +SLIDE 3
 $heading3 = 'Weekly Scheduled Bible Study';
 $date3 = 'Every &nbsp Friday &nbsp &nbsp &nbsp 8:00PM';
 $venue3 = 'Sa Lumang Bahay';

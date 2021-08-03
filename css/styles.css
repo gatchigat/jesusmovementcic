@@ -16,7 +16,6 @@ p {
   color: #8f8f8f;
 }
 
-
 /* HEADINGS */
 
 .big-heading {
@@ -50,27 +49,27 @@ p {
   font-weight: bolder;
   text-shadow: 3px 3px 2px #3d3d3d;
 }
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: white;
   transition: color 500ms, text-shadow 900ms;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
-  color: #253E31;
-  text-shadow: #00FFC6 1px 0 10px;
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #253e31;
+  text-shadow: #00ffc6 1px 0 10px;
 }
 .container-fluid {
   padding: 7% 15%;
 }
-.others{
+.others {
   padding: 1% 15%;
 }
-#register .container-fluid{
+#register .container-fluid {
   padding: 3% 15%;
 }
 
 /* SECTIONS */
 .colored-section {
-  background-color: #00C5A3;
+  background-color: #00c5a3;
   color: #fff;
 }
 
@@ -124,10 +123,10 @@ p {
   background-color: #18ac9f;
   /*height: 800px;*/
 }
-.testimonialHeading{
-padding-top: 3%;
-font-weight: bolder;
-color: white; 
+.testimonialHeading {
+  padding-top: 3%;
+  font-weight: bolder;
+  color: white;
 }
 
 .testimonial-text {
@@ -151,9 +150,9 @@ color: white;
 } */
 
 .carousel-indicator {
-   position: relative;
-   bottom: -50px;
- }
+  position: relative;
+  bottom: -50px;
+}
 #press {
   background-color: #18ac9f;
   /* padding-top: 5%; */
@@ -193,7 +192,7 @@ color: white;
 
 /* CTA */
 
-#cta .container-fluid{
+#cta .container-fluid {
   padding: 10% 12%;
 }
 
@@ -228,7 +227,7 @@ color: white;
 }
 .copy-foot2 {
   font-size: 0.6rem;
-  /*color: #ffffff;*/
+  color: #cecbcb;
   margin: 0;
   padding: 0;
 }
@@ -238,7 +237,7 @@ color: white;
   margin: 0;
   padding: 0.001% 15% 0 15%;
 }
-.footer-others{
+.footer-others {
   color: white;
 }
 .social-icon-others {
@@ -250,87 +249,83 @@ color: white;
   color: #2adabc;
 }
 
-#othersMain{
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  flex-direction: column;
-
-}
-.othersMain{
+#othersMain {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
   flex-direction: column;
 }
-.othersMainEvent{
+.othersMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+.othersMainEvent {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
 }
-.phpDiv{
+.phpDiv {
   padding-top: 3%;
   margin: 0;
-  font-family: 'Kalam',sans-serif;
+  font-family: "Kalam", sans-serif;
   font-size: 3rem;
-   color: #00af91;
- text-shadow: 2px 2px 2px #3d3d3d;
+  color: #00af91;
+  text-shadow: 2px 2px 2px #3d3d3d;
   font-weight: bolder;
 }
-table td{
+table td {
   padding: 10px 20px;
   margin: 10px 10px;
   border-collapse: collapse;
 }
-.td-input{
+.td-input {
   padding: 20px;
   width: 50vw;
 }
-.input-label{
-  font-family: 'Montserrat-Light',sans-serif;
+.input-label {
+  font-family: "Montserrat-Light", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: 3px;
 }
 /*input[type='number']{
     width: 600px;
-}*/ 
-button{
+}*/
+button {
   border-radius: 10px;
   outline-color: #00af91;
 }
-.buttonDiv{
+.buttonDiv {
   text-align: center;
-  padding-top:3%;
+  padding-top: 3%;
 }
 
-.bold{
+.bold {
   font-weight: 900;
   line-height: 1.5;
-  }
-
-.colorG{
- color: #00af91;
- text-shadow: 1px 1px 2px #3d3d3d;
 }
 
+.colorG {
+  color: #00af91;
+  text-shadow: 1px 1px 2px #3d3d3d;
+}
 
-.bolder{
+.bolder {
   font-weight: 900;
   list-style: 2.5;
   padding-top: 3%;
 }
-.big{
+.big {
   font-size: 6rem;
   line-height: 1.5;
-  
 }
-.pad{
+.pad {
   padding: 3% 3%;
 }
 
@@ -338,23 +333,23 @@ button{
 #events {
   /*background-color: #18ac9f;*/
 }
-#events{
-  width:100%;
+#events {
+  width: 100%;
   margin-bottom: 4%;
 }
 #events .carousel-item {
   /*height: 80vh;*/
 }
-.eventsHeading{
-padding-top: 3%;
-font-weight: bolder;
-color: black; 
+.eventsHeading {
+  padding-top: 3%;
+  font-weight: bolder;
+  color: black;
 }
 
 .event-text {
   padding-top: 3%;
   font-size: 1.2rem;
-   font-weight: 400; 
+  font-weight: 400;
   line-height: 1.5;
 }
 /*.testimonial-img {
@@ -368,21 +363,20 @@ color: black;
   height: 100px;
   width: 100px;
   outline: black;
-/*  background-size: 100%, 100%;
+  /*  background-size: 100%, 100%;
   border-radius: 50%;
   border: 1px solid black;*/
   background-image: none;
 }
 
-.carousel-control-next-icon1:after
-{
-  content: '>';
+.carousel-control-next-icon1:after {
+  content: ">";
   font-size: 55px;
   color: #00af91;
 }
 
 .carousel-control-prev-icon1:after {
-  content: '<';
+  content: "<";
   font-size: 55px;
   color: #00af91;
 }
@@ -402,12 +396,12 @@ color: black;
   padding: 10px;
   border-radius: 50%;
   font-size: 20px;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 #myBtn:hover {
-  background-color: #298E57;
-  color:#0FD98B;
+  background-color: #298e57;
+  color: #0fd98b;
 }
 @media (max-width: 1020px) {
   #title .container-fluid {
@@ -432,14 +426,23 @@ color: black;
   .cta-heading {
     font-size: 2rem;
   }
-  #events{
+  #events {
     padding-bottom: 5%;
     /*height: 100%;*/
     /*position: static;*/
     /*height: 120vh;*/
   }
-  #myBtn{
-      font-size: 10px;
+  #events h3 {
+    font-size: 1.8rem;
+  }
+  #events .event-text {
+    /*font-size: 1rem;*/
+  }
+  #events h2 {
+    font-size: 2.5rem;
+  }
+  #myBtn {
+    font-size: 10px;
   }
 }
 
@@ -448,7 +451,7 @@ color: black;
     padding: 3% 15% 0;
     text-align: center;
   }
-  .navbar-brand{
+  .navbar-brand {
     font-size: 1.5rem;
     margin-right: 2px;
     /*padding-right: 10px;*/
@@ -471,32 +474,27 @@ color: black;
   .cta-heading {
     font-size: 2rem;
   }
-  #events{
+  #events {
     padding-bottom: 5%;
     /*height: 100%;*/
     /*position: static;*/
     /*height: 120vh;*/
   }
 
-  
-  #events h3{
-    font-size: 1.5rem
+  #events h3 {
+    font-size: 1.5rem;
   }
   #events .event-text {
     /*font-size: 1rem;*/
-
   }
-  #events h2{
+  #events h2 {
     font-size: 2rem;
-
   }
-  #myBtn{
-      font-size: 10px;
+  #myBtn {
+    font-size: 10px;
   }
-  #myBtn{
-      font-size: 10px;
-    opacity: .3;
+  #myBtn {
+    font-size: 10px;
+    opacity: 0.3;
   }
-
-
 }

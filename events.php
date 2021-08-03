@@ -138,7 +138,7 @@ include "about.php"
 	
 	<!-- !Footer -->
         <section>
-          <footer class="colored-section footer-others" id="footer">
+          <footer class="colored-section footer-others fixed-bottom" id="footer">
             <a href="https://www.facebook.com/JMMinistriesOfficial" target="blank"> <i
             class=" social-icon-others fab fa-facebook-f "></i></a>
             <a href="https://twitter.com/tjesusmovement?lang=en" target="blank"> <i

@@ -155,7 +155,9 @@
             <h2 class="section-heading">About</h2>
             <!-- * About paragraph -->
             <p class="about-p">
+              
             <?php
+            //+ TASK: PULL DATA FROM about.php
               echo $aboutTxt;
             ?></p>
 
@@ -180,11 +182,15 @@
           <!--!Call to Action Quote -->
           <section class="colored-section container-fluid" id="cta">
             <h3 class="cta-heading">
-              <!-- ADDITIONAL TASK FILE MANIPULATION-->
-              <?php $cta_txt = fopen('cta.txt', 'r'); //OPEN txt file read mode
-              echo fgets($cta_txt);                   //ECHO contents
-              fclose($cta_txt);                       //CLOSE CONN
+
+              
+              <?php
+              //+ ADDITIONAL TASK FILE MANIPULATION
+              $cta_txt = fopen('cta.txt', 'r'); //- OPEN CONN txt file read only mode main directory/cta.txt 
+              echo fread($cta_txt,3000);                   //- ECHO contents
+              fclose($cta_txt);                       //- CLOSE CONN
               ?></h3>
+
             <h2 class="sml-heading"> - Ego Intervenerit</h2>
           </section>
           <!-- !Footer -->
@@ -199,6 +205,7 @@
             <p class=" copy-foot1">©Copyright 2021 Jesus Movement</p>
             <p class="copy-foot2">Gatchi @ College of Immaculate Conception</p>
           </footer>
+          
           <script>
               // JS for Back to top button
                 mybutton = document.getElementById("myBtn");
