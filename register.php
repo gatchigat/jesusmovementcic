@@ -148,7 +148,7 @@
           <section class="white-section" id="register">
             <div class="container-fluid">
 
-            	<!-- Bootsrap Forms -->
+            	<!-- Registration Form Using Bootsrap Forms -->
             	<h3 class="bold">Registration</h3>
                <form action="" method="POST" >
             	   <div class="form-group row">
@@ -201,7 +201,7 @@
           class=" social-icon-others fab fa-instagram "></i></a>
           <a href="mailto:jesusmovement2021CIC@gmail.com"> <i class=" social-icon-others fas fa-envelope "></i></a>
           <p class=" copy-foot1Others footer-others">©Copyright 2021 Jesus Movement</p>
-          <p class="copy-foot2 footer-others2">Website by Gatchi @ College of Immaculate Conception</p>
+          <p class="copy-foot2 footer-others2">Website by Gatchi @ College of the Immaculate Conception</p>
         </footer>
 		<script>
 			   function TestsFunction() {

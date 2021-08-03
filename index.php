@@ -203,7 +203,7 @@
             class=" social-icon fab fa-instagram "></i></a>
             <a href="mailto:jesusmovement2021CIC@gmail.com"> <i class=" social-icon fas fa-envelope "></i></a>
             <p class=" copy-foot1">©Copyright 2021 Jesus Movement</p>
-            <p class="copy-foot2">Gatchi @ College of Immaculate Conception</p>
+            <p class="copy-foot2">Gatchi @ College of the Immaculate Conception</p>
           </footer>
           
           <script>
